@@ -10,7 +10,7 @@
 
     <!--Favicon-->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    
+
     <!-- THEME CSS
 	================================================== -->
     <!-- Bootstrap -->
@@ -38,13 +38,13 @@
 <header class="header-top bg-dark justify-content-between navigation-dark">
   <nav class="navbar navbar-expand-lg navigation ">
       <div class="container">
-          <a class="navbar-brand d-lg-none" href="#"><img src="images/logo-w.png" alt="" class="img-fluid"></a>
+          <a class="navbar-brand d-lg-none" href="/home-page"><img src="images/logo-w.png" alt="" class="img-fluid"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="ti-menu"></span>
           </button>
               <div class="collapse navbar-collapse" id="navbarCollapse">
                   <ul id="menu" class="menu navbar-nav">
-				  <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+				  <li class="nav-item"><a href="/home-page" class="nav-link">Home</a></li>
                       <li class="nav-item"><a href="/posts" class="nav-link">Blog Posts</a></li>
 						<li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
 						<li class="nav-item"><a href="/about" class="nav-link">About</a></li>
@@ -115,7 +115,7 @@
 			</div>
 		</div>
 	</div>
-</footer>	
+</footer>
 
 
 <!-- THEME JAVASCRIPT FILES

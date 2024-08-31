@@ -1,9 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
 
 Route::get('/', function () {
-    return view('index');
+    return view('home-page');
+});
+Route::get('/home-page', function () {
+    return view('home-page');
 });
 Route::get('/posts', function () {
     return view('fashion');
